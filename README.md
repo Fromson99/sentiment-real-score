@@ -37,9 +37,8 @@
 
 ---
 
-## 설치 방법 (Installation)
+## 프로젝트 구조 (Project structure)
 
 1. **리포지토리 클론**  
    ```bash
-   git clone https://github.com/username/data-analysis-notebooks.git
-   cd data-analysis-notebooks
+
