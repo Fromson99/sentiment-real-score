@@ -1,4 +1,4 @@
-# MLM(Masked Language Model)을 활용한 금융 감성 점수 계산(Data Analysis Project) (IN PROGRESS)
+# MLM(Masked Language Model)을 활용한 금융 감성 점수 계산 (IN PROGRESS)
 ---
 
 ## 목차 (Table of Contents)
@@ -42,6 +42,7 @@
 | **exchange Rate** | - **환율 변환**에 관한 데이터<br>- 여러 통화를 서로 변환할 때 사용                                     | - USD/EUR 환율, KRW/JPY 환율 등                                                                 |
 | **market**        | - **주가 데이터**<br>- 시가, 종가, 거래량 등                                                         | - `open`, `high`, `low`, `close`, `volume` 등 주식 시세 정보                                     |
 
+
 - **데이터 전처리**: 결측치 처리, 이상치 탐지, 스케일링 등  
 - **데이터 탐색(EDA)**: 통계 요약, 분포 분석, 상관분석, 시각화  
 - **모델 학습 및 예측**: 머신러닝/딥러닝 기법을 사용한 분류, 회귀 등  
@@ -49,8 +50,7 @@
 
 ---
 
-## 프로젝트 구조 (Project structure)
+## 프로젝트 Flow (Project structure)
 
-1. **리포지토리 클론**  
-   ```bash
+
 
