@@ -35,7 +35,7 @@
 | **company**       | - **company id**로 유니크하게 식별 가능<br>- 기업 고유 정보 (예: 회사명, 설립일, 본사 위치 등)           | - `company_id = AAPL` <br>- `name = Apple Inc.`                                                 |
 | **financials**    | - **분기별(point-in-time)** 재무 데이터<br>- 매출, 영업이익, 순이익 등 분기마다 변동하는 값              | - `fiscalDateEnding = 2023-03-31` <br>- `netIncome = 50,000,000 USD`                             |
 | **estimate**      | - 재무 정보의 **추정치(Estimate)**<br>- 애널리스트, 리서치 기관 등이 제공하는 전망치                 | - 향후 분기 매출, EPS(Earnings Per Share) 추정치                                                 |
-| **advanceData**   | - **주요 이벤트**가 뉴스 형태로 제공<br>- 기업의 핵심 이슈나 제품 출시 등                            | - 예: "Apple이 새로운 iPhone 출시를 발표"                                                        |
+| **key develop**   | - **주요 이벤트**가 뉴스 형태로 제공<br>- 기업의 핵심 이슈나 제품 출시 등                            | - 예: "Apple이 새로운 iPhone 출시를 발표"                                                        |
 | **ownership data**| - 회사의 **지분율** 정보<br>- **owner**는 기업으로 제한<br>- `company` 데이터와 결합하여 어떤 기업이 보유 중인지 식별 가능 | - `company_id = MSFT` <br>  `owner_company_id = GS` (소유주가 Goldman Sachs)                    |
 | **professional**  | - 임원진 정보<br>- **금액(보수 등) 표기는 없음**                                                     | - CEO, CFO 등 임원 목록 <br>  단, 임원 보수 등 수치는 없음                                       |
 | **transcript**    | - 특정 이벤트에 대한 **코멘트**<br>- LNP(Live News/Press) 형태의 전문(全文) 또는 요약본               | - 어닝 콜(Earnings Call) <br>  기자 간담회 전문 등                                               |
